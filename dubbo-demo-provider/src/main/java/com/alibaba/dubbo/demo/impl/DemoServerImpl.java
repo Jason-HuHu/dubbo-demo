@@ -1,4 +1,4 @@
-package com.alibaba.dubbo.demo.provider;
+package com.alibaba.dubbo.demo.impl;
 
 import com.alibaba.dubbo.demo.DemoServer;
 import com.alibaba.dubbo.rpc.RpcContext;
