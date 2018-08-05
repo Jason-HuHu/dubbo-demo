@@ -2,7 +2,6 @@ package com.alibaba.dubbo.demo.impl;
 
 import com.alibaba.dubbo.demo.DemoServer;
 import com.alibaba.dubbo.rpc.RpcContext;
-import org.springframework.stereotype.Service;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

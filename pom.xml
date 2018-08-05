@@ -5,7 +5,7 @@
     <groupId>com.huxl</groupId>
     <artifactId>dubbo-demo</artifactId>
     <packaging>pom</packaging>
-    <version>2.5.5</version>
+    <version>2.5.3</version>
     <name>dubbo-demo</name>
     <description>The demo module of dubbo project</description>
     <modules>
