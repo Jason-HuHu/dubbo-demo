@@ -7,13 +7,15 @@
     <packaging>pom</packaging>
     <version>2.5.3</version>
     <name>dubbo-demo</name>
-    <description>The demo module of dubbo project</description>
+    <description>The demo of dubbo project</description>
     <modules>
         <module>dubbo-demo-api</module>
         <module>dubbo-demo-provider</module>
         <module>dubbo-demo-consumer</module>
     </modules>
+
     <properties>
+        <project_version>2.5.3</project_version>
         <skip_maven_deploy>true</skip_maven_deploy>
         <!-- Common libs -->
         <spring_version>4.3.10.RELEASE</spring_version>
