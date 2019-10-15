@@ -19,7 +19,10 @@
     <bean id="demoServer" class="com.alibaba.dubbo.demo.impl.DemoServerImpl"/>
 
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="com.alibaba.dubbo.demo.DemoService" ref="demoService"/>
-    <dubbo:service interface="com.alibaba.dubbo.demo.DemoServer" ref="demoServer"/>
+    <dubbo:service delay="5000" interface="com.alibaba.dubbo.demo.DemoService" ref="demoService" executes="10">
+        <!--方法级别的控制-->
+        <dubbo:method name="sayHello"/>
+    </dubbo:service>
+    <dubbo:service delay="-1" interface="com.alibaba.dubbo.demo.DemoServer" ref="demoServer"/>
 
 </beans>

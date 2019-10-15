@@ -22,7 +22,7 @@ public class Consumer {
         
         hello += demoServer.sayGoodbye("baibai");
 
-        System.out.println(hello); // 显示调用结果
+        System.err.println(hello); // 显示调用结果
         try {
             System.in.read();
         } catch (IOException e) {
