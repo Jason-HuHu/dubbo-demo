@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.huxl</groupId>
-        <artifactId>dubbo-demo</artifactId>
+        <artifactId>dubbo-demo-xml</artifactId>
         <version>2.5.3</version>
     </parent>
     <artifactId>dubbo-demo-api</artifactId>
