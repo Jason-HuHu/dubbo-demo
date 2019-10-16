@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-demo-annoation-api</artifactId>
+    <artifactId>dubbo-demo-annotation-api</artifactId>
 
 
 </project>

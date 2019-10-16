@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-demo-annoation-provider</artifactId>
+    <artifactId>dubbo-demo-annotation-provider</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -32,7 +32,7 @@
         </dependency>
         <dependency>
             <groupId>com.huxl</groupId>
-            <artifactId>dubbo-demo-annoation-api</artifactId>
+            <artifactId>dubbo-demo-annotation-api</artifactId>
             <version>2.5.3</version>
             <scope>compile</scope>
         </dependency>

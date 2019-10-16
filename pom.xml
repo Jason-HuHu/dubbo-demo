@@ -12,7 +12,7 @@
 
         <module>dubbo-demo-java</module>
         <module>dubbo-demo-xml</module>
-        <module>dubbo-demo-annoation</module>
+        <module>dubbo-demo-annotation</module>
     </modules>
 
     <properties>
