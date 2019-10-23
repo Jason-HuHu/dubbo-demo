@@ -5,7 +5,7 @@
     <parent>
         <artifactId>dubbo-demo-java</artifactId>
         <groupId>com.huxl</groupId>
-        <version>2.5.3</version>
+        <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -16,7 +16,7 @@
         <dependency>
             <groupId>com.huxl</groupId>
             <artifactId>dubbo-demo-java-api</artifactId>
-            <version>2.5.3</version>
+            <version>${project.parent.version}</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>

@@ -5,7 +5,7 @@
     <groupId>com.huxl</groupId>
     <artifactId>dubbo-demo</artifactId>
     <packaging>pom</packaging>
-    <version>2.5.3</version>
+    <version>${revision}</version>
     <name>dubbo-demo</name>
     <description>The demo of dubbo project</description>
     <modules>
@@ -15,7 +15,8 @@
     </modules>
 
     <properties>
-        <project_version>2.5.3</project_version>
+        <revision>2.6.4</revision>
+        <dubbo_version>2.6.4</dubbo_version>
         <skip_maven_deploy>true</skip_maven_deploy>
         <!-- Common libs -->
         <spring_version>4.3.10.RELEASE</spring_version>
@@ -78,7 +79,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>dubbo</artifactId>
-                <version>2.5.3</version>
+                <version>${dubbo_version}</version>
             </dependency>
             <!-- Common libs -->
             <dependency>
