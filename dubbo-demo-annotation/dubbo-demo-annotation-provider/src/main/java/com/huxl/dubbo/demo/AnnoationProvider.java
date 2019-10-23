@@ -14,7 +14,7 @@ import java.util.concurrent.CountDownLatch;
  */
 public class AnnoationProvider {
     public static void main(String[] args) throws InterruptedException {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProviderConfiguration.class);
         context.start();
         new CountDownLatch(1).await();
     }
@@ -22,7 +22,7 @@ public class AnnoationProvider {
 
     @Configuration
     @EnableDubbo(scanBasePackages = "com.huxl.dubbo.demo.service.impl",multipleConfig = true)
-    @PropertySource("classpath:dubbo-provider.properties")
+    @PropertySource("classpath:com/huxl/dubbo/demo/dubbo-provider.properties")
     static public class ProviderConfiguration {
 
         @Bean
