@@ -9,12 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-demo-java</artifactId>
+    <artifactId>dubbo-demo-annotation</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>dubbo-demo-java-api</module>
-        <module>dubbo-demo-java-consumer</module>
-        <module>dubbo-demo-java-provider</module>
+        <module>dubbo-demo-annotation-api</module>
+        <module>dubbo-demo-annotation-provider</module>
+        <module>dubbo-demo-annotation-consumer</module>
     </modules>
+
 
 </project>

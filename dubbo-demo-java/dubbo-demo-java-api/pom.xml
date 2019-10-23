@@ -10,6 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dubbo-demo-java-api</artifactId>
+    <packaging>jar</packaging>
+    <name>${project.artifactId}</name>
 
 
 </project>
