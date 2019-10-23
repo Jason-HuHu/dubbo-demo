@@ -3,9 +3,8 @@ dubbo快速入门
 # 项目结构
 ```text
  dubbo-demo
-    dubbo-demo-annotation :采用注解的方式使用dubbo
     dubbo-demo-java :采用编程方式使用dubbo
-    dubbo-demo-xml :采用注解的方式使用dubbo
+    dubbo-demo-xml : 采用注解的方式使用dubbo
 
 ```
 # 快速启动
