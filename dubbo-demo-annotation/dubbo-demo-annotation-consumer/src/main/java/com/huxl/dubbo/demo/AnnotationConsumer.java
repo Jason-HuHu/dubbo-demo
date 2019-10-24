@@ -39,8 +39,8 @@ public class AnnotationConsumer {
 
     @Configuration
     @EnableDubbo(scanBasePackages = "com.huxl.dubbo.demo", multipleConfig = true)
-    @PropertySource("classpath:/com/huxl/dubbo/demo/dubbo-consumer.properties")
-//    @ComponentScan(value = {"com.huxl.dubbo.demo.action"})
+    @PropertySource("classpath:dubbo.properties")
+    @ComponentScan(value = {"com.huxl.dubbo.demo.action"})
     static public class ConsumerConfiguration {
 
     }

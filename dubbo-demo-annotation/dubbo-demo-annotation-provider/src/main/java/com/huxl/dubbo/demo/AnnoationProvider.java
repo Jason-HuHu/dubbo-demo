@@ -2,10 +2,7 @@ package com.huxl.dubbo.demo;
 
 import com.alibaba.dubbo.config.ProviderConfig;
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.*;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -13,16 +10,15 @@ import java.util.concurrent.CountDownLatch;
  * @author huxl
  */
 public class AnnoationProvider {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws Exception {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProviderConfiguration.class);
         context.start();
-        new CountDownLatch(1).await();
+        System.in.read();
     }
 
 
     @Configuration
     @EnableDubbo(scanBasePackages = "com.huxl.dubbo.demo.service.impl",multipleConfig = true)
-    @PropertySource("classpath:com/huxl/dubbo/demo/dubbo-provider.properties")
     static public class ProviderConfiguration {
 
         @Bean
