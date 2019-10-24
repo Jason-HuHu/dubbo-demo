@@ -4,8 +4,6 @@ import com.alibaba.dubbo.config.ProviderConfig;
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.context.annotation.*;
 
-import java.util.concurrent.CountDownLatch;
-
 /**
  * @author huxl
  */
