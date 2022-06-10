@@ -17,7 +17,7 @@
 
     <properties>
         <revision>2.6.4</revision>
-        <dubbo_version>2.6.4</dubbo_version>
+        <dubbo_version>2.6.12</dubbo_version>
         <skip_maven_deploy>true</skip_maven_deploy>
         <!-- Common libs -->
         <spring_version>4.3.10.RELEASE</spring_version>
